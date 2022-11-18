@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "av_will";
+    $dbname = "reserva";
 
     //Cria conexão
 
@@ -41,13 +41,10 @@
         echo "</td>";
         echo "<td>";
         echo  "<select name ='Cod_sala[]'>";
-        echo "<option  value ='".$linha['agendamento.Cod_sala']. "' readonly>".$linha['sala.nome_sala']."</option>";
+        echo "<option  value ='" .$linha['agendamento.Cod_sala']. "' readonly>" .$linha['nome_sala']. "</option>";
         echo "<option  value ='1401'>Sala 1401</option>";
         echo "<option  value ='1402'>Sala 1402</option>";
         echo "<option  value ='1403'>Sala 1403</option>";
-        echo "<option  value ='1405'>Sala 1405</option>";
-        echo "<option  value ='1406'>Sala 1406</option>";
-        echo "<option  value ='1407'>Sala 1407</option>";
         echo "</select>";
         echo "</td>";
         echo "<td>";

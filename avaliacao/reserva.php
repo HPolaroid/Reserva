@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "av_will";
+    $dbname = "reserva";
 
     //Cria conexão
 
